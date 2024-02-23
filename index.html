@@ -10,18 +10,30 @@
 </head>
 <body>
 
-    <div class="wrapper"></div>
+    <div class="wrapper">
         <aside>
             <header>
                 <h1 class="logo">CarpiShop</h1>
             </header>
             <nav>
                 <ul>
-                    <li><button class="boton-categoria">Todos los productos</button></li>
-                    <li><button class="boton-categoria">Abrigos</button></li>
-                    <li><button class="boton-categoria">Camisetas</button></li>
-                    <li><button class="boton-categoria">Pantalones</button></li>
-                    <li><button class="boton-categoria"><a href="/carrito.html">Carrito <span class="numerito">0</span></a></button></li>
+                    <li>
+                        <button class="boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                    </li>
+                    <li>
+                        <button class="boton-categoria"><i class="bi bi-hand-index-thumb"></i>Abrigos</button>
+                    </li>
+                    <li>
+                        <button class="boton-categoria"><i class="bi bi-hand-index-thumb"></i>Camisetas</button>
+                    </li>
+                    <li>
+                        <button class="boton-categoria"><i class="bi bi-hand-index-thumb"></i>Pantalones</button>
+                    </li>
+                    <li>
+                        <a class="boton-carrito" href="/carrito.html">
+                            <i class="bi bi-cart-fill"></i>Carrito <span class="numerito">0</span>
+                        </a></button>
+                    </li>
                 </ul>
             </nav>
             <footer>
@@ -30,8 +42,19 @@
 
         </aside>
         <main>
-
+            <h2 class="titulo-principal">Todos los productos</h2>
+            <div class="contenedor de productos">
+                <div class="producto">
+                    <img class="producto-imagen" src="./img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Abrigo 01</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+            </div>
         </main>
+    </div>
     
     <script src="./js/main.js"></script>
 </body>
