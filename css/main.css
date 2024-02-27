@@ -108,6 +108,22 @@ aside {
     transform: rotateZ(90deg);
 }
 
+.boton-carrito {
+    margin-top: 2rem;
+}
+
+.numerito {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    padding: 0 .25rem;
+    border-radius: .25rem;
+}
+
+.boton-carrito.active .numerito{
+    background-color: var(--clr-main);
+    color: var(--clr-white);
+}
+
 .texto-footer {
     color: var(--clr-main-light);
     font-size: .85rem;
@@ -256,4 +272,8 @@ main {
     cursor: pointer;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+.disabled {
+    display: none;
 }
